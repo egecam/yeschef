@@ -10,12 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Welcome back, Ege")
+                .font(.largeTitle)
+                .bold()
+                .padding()
         }
-        .padding()
+        
+        
+        Text("You are learning Italian cuisine.")
+            .font(.title2)
+        Divider()
+        
+        VStack {
+            ScrollView() {
+                ForEach(0..<10) { index in
+                    CourseCard(title: "Risotto", isCompleted: false, difficulty: 1)
+                    
+                    ProgressStick(isPreviousCourseCompleted: false, difficultyOfNextCourse: 1)
+                }
+            }
+            .ignoresSafeArea()
+            .scrollTargetLayout()
+            .scrollTargetBehavior(.viewAligned)
+            .scrollBounceBehavior(.basedOnSize)
+            
+            Spacer()
+        }
     }
 }
 
