@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D44FA8A32BA337C900A0B5D7 /* ProgressStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FA8A22BA337C900A0B5D7 /* ProgressStick.swift */; };
 		D4D4ED502B9CBF7D002E83FE /* YesChefApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED4F2B9CBF7D002E83FE /* YesChefApp.swift */; };
 		D4D4ED522B9CBF7D002E83FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED512B9CBF7D002E83FE /* ContentView.swift */; };
 		D4D4ED542B9CBF7E002E83FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D4ED532B9CBF7E002E83FE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		D4D4ED612B9CBF7E002E83FE /* YesChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED602B9CBF7E002E83FE /* YesChefTests.swift */; };
 		D4D4ED6B2B9CBF7E002E83FE /* YesChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED6A2B9CBF7E002E83FE /* YesChefUITests.swift */; };
 		D4D4ED6D2B9CBF7E002E83FE /* YesChefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED6C2B9CBF7E002E83FE /* YesChefUITestsLaunchTests.swift */; };
+		D4F4B03A2B9F4B5A00459B8A /* CourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F4B0392B9F4B5A00459B8A /* CourseCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D44FA8A22BA337C900A0B5D7 /* ProgressStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStick.swift; sourceTree = "<group>"; };
 		D4D4ED4C2B9CBF7D002E83FE /* YesChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D4ED4F2B9CBF7D002E83FE /* YesChefApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesChefApp.swift; sourceTree = "<group>"; };
 		D4D4ED512B9CBF7D002E83FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		D4D4ED662B9CBF7E002E83FE /* YesChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YesChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D4ED6A2B9CBF7E002E83FE /* YesChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesChefUITests.swift; sourceTree = "<group>"; };
 		D4D4ED6C2B9CBF7E002E83FE /* YesChefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesChefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4F4B0392B9F4B5A00459B8A /* CourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D44FA8A12BA3375C00A0B5D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4F4B0392B9F4B5A00459B8A /* CourseCard.swift */,
+				D44FA8A22BA337C900A0B5D7 /* ProgressStick.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D4D4ED432B9CBF7D002E83FE = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +107,7 @@
 		D4D4ED4E2B9CBF7D002E83FE /* YesChef */ = {
 			isa = PBXGroup;
 			children = (
+				D44FA8A12BA3375C00A0B5D7 /* View */,
 				D4D4ED4F2B9CBF7D002E83FE /* YesChefApp.swift */,
 				D4D4ED512B9CBF7D002E83FE /* ContentView.swift */,
 				D4D4ED532B9CBF7E002E83FE /* Assets.xcassets */,
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D4ED522B9CBF7D002E83FE /* ContentView.swift in Sources */,
+				D44FA8A32BA337C900A0B5D7 /* ProgressStick.swift in Sources */,
+				D4F4B03A2B9F4B5A00459B8A /* CourseCard.swift in Sources */,
 				D4D4ED502B9CBF7D002E83FE /* YesChefApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
